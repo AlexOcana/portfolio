@@ -1,0 +1,30 @@
+.FirstContent {
+    margin-top: 10px;
+}
+
+
+.FirstContent h1 {
+
+    position: absolute;
+    z-index: 100;
+
+}
+
+.FirstContent img {
+
+    position: relative;
+    width: 650px;
+    height: 400px;
+}
+
+.Introduction {
+
+    background-color: blanchedalmond;
+    padding: 5px;
+}
+
+.Introduction h4 {
+
+    text-decoration: underline;
+    text-align: center;
+}

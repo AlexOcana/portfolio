@@ -1,4 +1,6 @@
 import "./HomePage.css"
+import Logo2 from '../../assets/Logo2.png'
+import yoeditado from '../../assets/yoeditado.jpeg'
 
 const HomePage = () => {
 
@@ -6,11 +8,11 @@ const HomePage = () => {
         <>
             <div className="AllContent">
                 <div className="FirstContent">
-                    <img src="/public/Logo2.png" alt="logoWeb" />
+                    <img src={Logo2} alt="logoWeb" />
                     <h1>Never stop learning...</h1>
                 </div >
                 <div className="Introduction">
-                    <img src="public/yoeditado.jpeg" alt="photographOfDeveloper" />
+                    <img src={yoeditado} alt="photographOfDeveloper" />
                     <p>I am Alejandro Ocaña, a Full Stack developer, whose educational foundation lies in Physical Education.
                         However, my journey has been a passionate pursuit of technology. Throughout my career,
                         I have actively sought opportunities within the Information Technology and Engineering sectors.

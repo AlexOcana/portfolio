@@ -1,6 +1,10 @@
 import './ProyectsDetailsPage.css'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import proyectovideojuego from '../../assets/proyectovideojuego.png'
+import videogames from '../../assets/videogames.jpeg'
+import gymapp from '../../assets/gymapp.png'
+
 const ProyectsDetailsPage = () => {
 
     return (
@@ -8,7 +12,7 @@ const ProyectsDetailsPage = () => {
             <h2>See the best proyects i have done in my carrer</h2>
             <div className='AllCards'>
                 <Card className='CardStyle'>
-                    <Card.Img variant="top" src="./public/proyectovideojuego.png" />
+                    <Card.Img variant="top" src={proyectovideojuego} />
                     <Card.Body className='mt-2 text-center'>
                         <Card.Title>DOM VideoGame Proyect</Card.Title>
                         <Card.Text>
@@ -22,7 +26,7 @@ const ProyectsDetailsPage = () => {
                 </Card>
 
                 <Card className='CardStyle2'>
-                    <Card.Img variant="top" src="./public/videogames.jpeg" />
+                    <Card.Img variant="top" src={videogames} />
                     <Card.Body className='mt-2 text-center'>
                         <Card.Title>HBS Proyect VideoGames API</Card.Title>
                         <Card.Text>
@@ -36,7 +40,7 @@ const ProyectsDetailsPage = () => {
                     </Card.Body>
                 </Card>
                 <Card className='CardStyle3'>
-                    <Card.Img variant="top" src="./public/gymapp.png" />
+                    <Card.Img variant="top" src={gymapp} />
                     <Card.Body className='mt-2 text-center'>
                         <Card.Title>REACT App for GYM</Card.Title>
                         <Card.Text>

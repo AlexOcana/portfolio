@@ -1,7 +1,7 @@
 .FirstContent {
 
     text-align: right;
-    background-image: url('/public/fondodeveloper.jpg');
+    background-image: url('../../assets/fondodeveloper.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: -35px
